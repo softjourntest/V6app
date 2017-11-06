@@ -92,4 +92,12 @@
                 [value]="item" data-comp-id="option.1"></ion-option>
         </ion-select>
     </ion-item>
+    <ion-item data-comp-id="select.2">
+        <ion-label>Sel</ion-label>
+        <ion-select [(ngModel)]="data.sel.selected"
+            [selectOptions]="{cssClass: 'select-full'}">
+            <ion-option *ngFor="let item of data.sel.options" [innerHTML]="item.label"
+                [value]="item" data-comp-id="option.2"></ion-option>
+        </ion-select>
+    </ion-item>
 </ion-content>
