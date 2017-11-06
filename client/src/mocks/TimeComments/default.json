@@ -1,3 +1,15 @@
 {
-  "str": "data"
+  "str": "data",
+  "sel": {
+    "options": [
+      {
+        "label": "1",
+        "value": "qq"
+      },
+      {
+        "label": "2",
+        "value": "dd"
+      }
+    ]
+  }
 }

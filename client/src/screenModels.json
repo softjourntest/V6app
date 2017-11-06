@@ -107,6 +107,9 @@
     "properties": {
       "str": {
         "type": "string"
+      },
+      "sel": {
+        "type": "select"
       }
     }
   }
