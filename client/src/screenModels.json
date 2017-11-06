@@ -104,6 +104,10 @@
   "TimeComments": {
     "type": "object",
     "comment": "Blank",
-    "properties": {}
+    "properties": {
+      "str": {
+        "type": "string"
+      }
+    }
   }
 }
