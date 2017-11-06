@@ -31,12 +31,6 @@
       "name": "ServiceRequest",
       "sourceScreenId": "ServiceRequest",
       "sourceAppId": "EmployeePortal_2"
-    },
-    {
-      "id": "TimeComments",
-      "name": "TimeComments",
-      "sourceScreenId": "TimeComments",
-      "sourceAppId": "EmployeePortal_2"
     }
   ]
 }
