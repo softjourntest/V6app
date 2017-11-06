@@ -1,0 +1,104 @@
+{
+  "Login": {
+    "type": "object",
+    "comment": "Login",
+    "properties": {
+      "username": {
+        "type": "string",
+        "label": "username"
+      },
+      "password": {
+        "type": "string",
+        "label": "password"
+      },
+      "submit": {
+        "type": "action",
+        "parameters": {
+          "username": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "Home": {
+    "type": "object",
+    "comment": "Blank",
+    "properties": {
+      "Group": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "Title": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "icon": {
+              "type": "string"
+            },
+            "EditedDate": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "EditedBy": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      }
+    }
+  },
+  "TimeEntry": {
+    "type": "object",
+    "comment": "Blank",
+    "properties": {}
+  },
+  "ServiceNowList": {
+    "type": "object",
+    "comment": "Blank",
+    "properties": {
+      "serviceitem": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      }
+    }
+  },
+  "ServiceRequest": {
+    "type": "object",
+    "comment": "Blank",
+    "properties": {}
+  }
+}

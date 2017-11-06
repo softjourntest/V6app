@@ -1,0 +1,36 @@
+{
+  "id": "__BASE__",
+  "name": "V6 app",
+  "screens": [
+    {
+      "id": "Login",
+      "name": "Login",
+      "sourceScreenId": "Login",
+      "sourceAppId": "EmployeePortal_2"
+    },
+    {
+      "id": "Home",
+      "name": "Home",
+      "sourceScreenId": "Home",
+      "sourceAppId": "EmployeePortal_2"
+    },
+    {
+      "id": "TimeEntry",
+      "name": "TimeEntry",
+      "sourceScreenId": "TimeEntry",
+      "sourceAppId": "EmployeePortal_2"
+    },
+    {
+      "id": "ServiceNowList",
+      "name": "ServiceNowList",
+      "sourceScreenId": "ServiceNowList",
+      "sourceAppId": "EmployeePortal_2"
+    },
+    {
+      "id": "ServiceRequest",
+      "name": "ServiceRequest",
+      "sourceScreenId": "ServiceRequest",
+      "sourceAppId": "EmployeePortal_2"
+    }
+  ]
+}

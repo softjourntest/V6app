@@ -1,0 +1,72 @@
+<ion-header data-comp-id="header.1">
+    <ion-navbar color="primary" data-comp-id="navbar.1" style="">
+        <ion-buttons data-comp-id="buttons.1" right="">
+            <button (click)="go('Home')" data-comp-id="icon-button.1" ion-button=""
+                style="font-size: 24px;">
+                <ion-icon class="ion-md-home"></ion-icon>
+            </button>
+        </ion-buttons>
+        <ion-title data-comp-id="title.1" text-center="">Service Request</ion-title>
+        <ion-buttons data-comp-id="buttons.2" left="">
+            <button (click)="go('ServiceNowList')" data-comp-id="icon-button.2"
+                ion-button="" style="font-size: 24px;">
+                <ion-icon class="ion-ios-arrow-back"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+<ion-content class="content-light" data-comp-id="content.1" style="">
+    <ion-item data-comp-id="select.1" style="background-color: #ffffff;">
+        <ion-label>Priority</ion-label>
+        <ion-select [selectOptions]="{cssClass: 'select-full'}">
+            <ion-option data-comp-id="option.1"></ion-option>
+        </ion-select>
+    </ion-item>
+    <ion-item data-comp-id="select.2" style="background-color: #ffffff;">
+        <ion-label>Location</ion-label>
+        <ion-select [selectOptions]="{cssClass: 'select-full'}">
+            <ion-option data-comp-id="option.2"></ion-option>
+        </ion-select>
+    </ion-item>
+    <ion-item data-comp-id="select.3" style="background-color: #ffffff;">
+        <ion-label>Category</ion-label>
+        <ion-select [selectOptions]="{cssClass: 'select-full'}">
+            <ion-option data-comp-id="option.3"></ion-option>
+        </ion-select>
+    </ion-item>
+    <ion-item data-comp-id="select.4" style="background-color: #ffffff;">
+        <ion-label>Subcategory</ion-label>
+        <ion-select [selectOptions]="{cssClass: 'select-full'}">
+            <ion-option data-comp-id="option.4"></ion-option>
+        </ion-select>
+    </ion-item>
+    <div data-comp-id="div.1" style="padding: 3%;">
+        <div color="primary" data-comp-id="text.1" ion-text="" style="font-size: 18px;">Summary</div>
+    </div>
+    <ion-item class="summary" data-comp-id="textarea.1">
+        <ion-textarea placeholder="Type here..."></ion-textarea>
+    </ion-item>
+    <div data-comp-id="div.2" style="padding: 3%;">
+        <div color="primary" data-comp-id="text.2" ion-text="" style="font-size: 18px;">Description</div>
+    </div>
+    <ion-item class="description" data-comp-id="textarea.2">
+        <ion-label stacked=""></ion-label>
+        <ion-textarea placeholder="Type here..."></ion-textarea>
+    </ion-item>
+</ion-content>
+<ion-footer data-comp-id="footer.1">
+    <ion-row data-comp-id="row.1">
+        <ion-col data-comp-id="column.1">
+            <button (click)="go('ServiceNowList')" data-comp-id="icon-button.3"
+                ion-button="">
+                <ion-icon class="ion-md-arrow-round-back"></ion-icon>
+            </button>
+        </ion-col>
+        <ion-col data-comp-id="column.2" style="text-align: right;">
+            <button (click)="go('ServiceNowList')" data-comp-id="icon-button.4"
+                ion-button="">
+                <ion-icon class="ion-md-arrow-round-forward"></ion-icon>
+            </button>
+        </ion-col>
+    </ion-row>
+</ion-footer>
