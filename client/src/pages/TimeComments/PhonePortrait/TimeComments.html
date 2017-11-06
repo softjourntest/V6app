@@ -84,4 +84,12 @@
         <ion-label>Str</ion-label>
         <ion-input [(ngModel)]="data.str" placeholder="Type here..." type="text"></ion-input>
     </ion-item>
+    <ion-item data-comp-id="select.1">
+        <ion-label>Sel</ion-label>
+        <ion-select [(ngModel)]="data.sel.selected"
+            [selectOptions]="{cssClass: 'select-full'}">
+            <ion-option *ngFor="let item of data.sel.options" [innerHTML]="item.label"
+                [value]="item" data-comp-id="option.1"></ion-option>
+        </ion-select>
+    </ion-item>
 </ion-content>
