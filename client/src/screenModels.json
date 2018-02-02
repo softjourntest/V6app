@@ -112,5 +112,9 @@
         "type": "select"
       }
     }
+  },
+  "menu": {
+    "type": "object",
+    "properties": {}
   }
 }
