@@ -1,6 +1,6 @@
 /***  Generated file, do not change.  */
 import { Page } from 'ionic-angular/navigation/nav-util';
-import { MenuComponent } from './menu/menu.component';
+import { MenuComponent } from './menu/menu';
 import { Login_PhonePortrait } from '../pages/Login/PhonePortrait/Login';
 import { Home_PhonePortrait } from '../pages/Home/PhonePortrait/Home';
 import { TimeEntry_PhonePortrait } from '../pages/TimeEntry/PhonePortrait/TimeEntry';
