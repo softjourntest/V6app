@@ -1,0 +1,39 @@
+<ion-header data-comp-id="header.1">
+    <ion-navbar color="primary" data-comp-id="navbar.1">
+        <ion-buttons data-comp-id="buttons.1" start="">
+            <button (click)="action('cancel')" data-comp-id="icon-button.1" ion-button=""
+                style="font-size: 24px;">
+                <ion-icon class="ion-ios-close"></ion-icon>
+            </button>
+        </ion-buttons>
+        <ion-title data-comp-id="title.1">
+            <span ion-text="">Compose Email</span>
+        </ion-title>
+        <ion-buttons data-comp-id="buttons.2" end="">
+            <button (click)="action('send')" data-comp-id="button.1" ion-button="">Send</button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+<ion-content data-comp-id="content.1">
+    <ion-list data-comp-id="list.1">
+        <ion-item data-comp-id="input.1">
+            <ion-label>To</ion-label>
+            <ion-input [(ngModel)]="data.to" name="to" placeholder="Type here..."
+                type="text"></ion-input>
+        </ion-item>
+        <ion-item data-comp-id="input.2">
+            <ion-label>Cc</ion-label>
+            <ion-input [(ngModel)]="data.cc" name="cc" placeholder="Type here..."
+                type="text"></ion-input>
+        </ion-item>
+        <ion-item data-comp-id="input.3">
+            <ion-label stacked="">Subject</ion-label>
+            <ion-input [(ngModel)]="data.subject" name="subject" placeholder="Type here..."
+                type="text"></ion-input>
+        </ion-item>
+        <ion-item data-comp-id="textarea.1">
+            <ion-label stacked="">Message</ion-label>
+            <ion-textarea name="message" placeholder="Type here..." rows="100%"></ion-textarea>
+        </ion-item>
+    </ion-list>
+</ion-content>

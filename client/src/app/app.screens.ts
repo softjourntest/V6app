@@ -7,6 +7,7 @@ import { TimeEntry_PhonePortrait } from '../pages/TimeEntry/PhonePortrait/TimeEn
 import { ServiceNowList_PhonePortrait } from '../pages/ServiceNowList/PhonePortrait/ServiceNowList';
 import { ServiceRequest_PhonePortrait } from '../pages/ServiceRequest/PhonePortrait/ServiceRequest';
 import { TimeComments_PhonePortrait } from '../pages/TimeComments/PhonePortrait/TimeComments';
+import { messagecompose_PhonePortrait } from '../pages/messagecompose/PhonePortrait/messagecompose';
 export class Screens {
   static declarations: Page[] = [
     MenuComponent,
@@ -15,7 +16,8 @@ export class Screens {
     TimeEntry_PhonePortrait,
     ServiceNowList_PhonePortrait,
     ServiceRequest_PhonePortrait,
-    TimeComments_PhonePortrait
+    TimeComments_PhonePortrait,
+    messagecompose_PhonePortrait
   ];
   static mapping = {
     'Login': {
@@ -35,6 +37,9 @@ export class Screens {
     },
     'TimeComments': {
       PhonePortrait: TimeComments_PhonePortrait
+    },
+    'messagecompose': {
+      PhonePortrait: messagecompose_PhonePortrait
     }
   }
 }

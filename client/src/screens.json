@@ -37,6 +37,12 @@
       "name": "TimeComments",
       "sourceScreenId": "TimeComments",
       "sourceAppId": "EmployeePortal_2"
+    },
+    {
+      "id": "messagecompose",
+      "name": "MessageCompose",
+      "sourceScreenId": "Messages_messagecompose",
+      "sourceAppId": "universaltemplates"
     }
   ]
 }
