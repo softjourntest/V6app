@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "comment": "Blank",
+  "properties": {
+    "str": {
+      "type": "string"
+    },
+    "sel": {
+      "type": "select"
+    }
+  },
+  "id": "TimeComments",
+  "connect": []
+}

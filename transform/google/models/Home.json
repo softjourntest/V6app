@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "comment": "Blank",
+  "properties": {
+    "Group": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Title": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "icon": {
+            "type": "string"
+          },
+          "EditedDate": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "EditedBy": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          }
+        }
+      },
+      "update": {
+        "type": "none"
+      }
+    }
+  },
+  "id": "Home",
+  "connect": []
+}

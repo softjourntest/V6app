@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "comment": "Blank",
+  "properties": {
+    "serviceitem": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "number": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "update": {
+        "type": "none"
+      }
+    }
+  },
+  "id": "ServiceNowList",
+  "connect": []
+}

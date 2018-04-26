@@ -22,7 +22,9 @@
           }
         }
       }
-    }
+    },
+    "id": "Login",
+    "sourcePath": "Login"
   },
   "Home": {
     "type": "object",
@@ -60,12 +62,16 @@
           "type": "none"
         }
       }
-    }
+    },
+    "id": "Home",
+    "sourcePath": "Home"
   },
   "TimeEntry": {
     "type": "object",
     "comment": "Blank",
-    "properties": {}
+    "properties": {},
+    "id": "TimeEntry",
+    "sourcePath": "TimeEntry"
   },
   "ServiceNowList": {
     "type": "object",
@@ -94,12 +100,16 @@
           "type": "none"
         }
       }
-    }
+    },
+    "id": "ServiceNowList",
+    "sourcePath": "ServiceNowList"
   },
   "ServiceRequest": {
     "type": "object",
     "comment": "Blank",
-    "properties": {}
+    "properties": {},
+    "id": "ServiceRequest",
+    "sourcePath": "ServiceRequest"
   },
   "TimeComments": {
     "type": "object",
@@ -111,10 +121,14 @@
       "sel": {
         "type": "select"
       }
-    }
+    },
+    "id": "TimeComments",
+    "sourcePath": "TimeComments"
   },
   "menu": {
     "type": "object",
-    "properties": {}
+    "properties": {},
+    "id": "menu",
+    "sourcePath": "menu"
   }
 }
